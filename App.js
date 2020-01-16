@@ -1,6 +1,6 @@
 import React from 'react';
 import FetchPoe from './components/FetchPoe';
-import PlayerSearch from './components/PlayerSearch';
+// import PlayerSearch from './components/PlayerSearch';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <h2>Path of Exile</h2>
       </header>
-      <PlayerSearch />
+      {/* <PlayerSearch /> */}
       <FetchPoe />
     </div>
   );
